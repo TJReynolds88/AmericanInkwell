@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    background-image: url("../assets/bgImage.JPG");
+    background-repeat: repeat;
+
+}
+
+.container{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f0f0da;
+    margin: 30px;;
+    border-radius: 15px;
+}
