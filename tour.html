@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>American Inkwell</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>American Inkwell</h1>
+            <h2>Fine Body Art by World-class Gentleman</h2>
+        </header>
+        <nav>
+            <a class="links" href="#">Home</a>
+            <div class="dropdown-menu">
+                <button class="menu-btn">Artist</button>
+                <div class="menu-content">
+                    <a class="links-hidden" href="#">Jason Parry</a>
+                    <a class="links-hidden" href="#">Kalib Jackson</a>
+                </div>
+            </div>
+            <a class="links" href="#">Tour</a>
+            <a class="links" href="#">FAQ</a>
+            <a class="links" href="#">Contact Us</a>
+            <a class="hamburger">☰</a>
+        </nav>
+        <section>
+            <h1>Welcome To American Inkwell</h1>
+            <!-- The expanding image container -->
+            <div id="container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+                <!-- Expanded image -->
+                <img id="expandedImg" style="width:100%;">
+
+                <!-- Image text -->
+                <div id="imgtext"></div>
+            </div>
+            <!-- The grid: four columns -->
+            <div class="row">
+                <div class="column">
+                    <img src="assets/pekin factories.jpg" alt="Pekin IL Factories" onclick="changeImage(this);">
+                </div>
+                <div class="column">
+                    <img src="assets/sign.jpg" alt="American Inkwell Tattoos " onclick="changeImage(this);">
+                </div>
+                <div class="column">
+                    <img src="img_mountains.jpg" alt="Mountains" onclick="changeImage(this);">
+                </div>
+                <div class="column">
+                    <img src="img_lights.jpg" alt="Lights" onclick="changeImage(this);">
+                </div>
+                <div class="column">
+                    <img src="img_mountains.jpg" alt="Mountains" onclick="changeImage(this);">
+                </div>
+                <div class="column">
+                    <img src="img_lights.jpg" alt="Lights" onclick="changeImage(this);">
+                </div>
+                <div class="column">
+                    <img src="img_mountains.jpg" alt="Mountains" onclick="changeImage(this);">
+                </div>
+                <div class="column">
+                    <img src="img_lights.jpg" alt="Lights" onclick="changeImage(this);">
+                </div>
+            </div>
+        </section>
+
+        <footer>@2020 American Inkwell</footer>
+    </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/tour.js"></script>
+
+</body>
+
+</html>
